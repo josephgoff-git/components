@@ -1,3 +1,5 @@
+import "./Navbar1.css"
+
 function Navbar1() {
   return (
     <div style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black", height: "60px", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px"}}>
