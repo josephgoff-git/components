@@ -36,16 +36,13 @@ class CardBtn extends React.Component {
 // React component for social profile links
 class CardProfileLinks extends React.Component {
   render() {
-    const profileLinks = ['twitter', 'linkedin', 'dribbble', 'facebook'];
-
-    const linksList = profileLinks.map((link, index) =>
-      <li key={index}><a href='#'><i className={'fa fa-' + link}></i></a></li>
-    );
-
     return (
       <div className='card-social-links'>
         <ul className='social-links'>
-          {linksList}
+          <li><a href='#'>Twitter</a></li>
+          <li><a href='#'>LinkedIn</a></li>
+          <li><a href='#'>Dribbble</a></li>
+          <li><a href='#'>Facebook</a></li>
         </ul>
       </div>
     )
@@ -60,7 +57,7 @@ class CardFront extends React.Component {
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-xs-6'>
-              <img src='https://source.unsplash.com/w8YICpz1I10/358x458' />
+              <img src='https://source.unsplash.com/w8YICpz1I10/358x458' alt='Profile' />
             </div>
 
             <div className='col-xs-6 side-front-content'>
@@ -72,7 +69,7 @@ class CardFront extends React.Component {
 
               <p>He is currently the founder of Dvorak Media. Previously, Andrey was a product designer at Dropbox.</p>
 
-              <p>Over the years, Michael has been privileged to have worked with Adobe, Evernote, Square and more.</p>
+              <p>Over the years, Michael has been privileged to have worked with Adobe, Evernote, Square, and more.</p>
             </div>
           </div>
         </div>
