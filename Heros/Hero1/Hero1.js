@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hero1.css';
 
 // React component for form inputs
 class CardInput extends React.Component {
