@@ -1,11 +1,17 @@
-function Navbar1() {
+import './Navbar1.css';
+
+const Navbar1 = () => {
   return (
-    <div style={{backgroundColor: "white", color: "black", borderBottom: "1px solid black", height: "60px", width: "100vw", display: "flex", justifyContent: "center", alignItems: "center", gap: "15px"}}>
-      <p>Home</p>
-      <p>About</p>
-      <p>Contact</p>
-      <p>Products</p>
-    </div>
+    <nav className="navbar">
+      <div className="logo">Logo</div>
+      <ul className="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   );
 }
 
