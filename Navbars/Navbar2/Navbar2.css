@@ -1,4 +1,4 @@
-.navbar {
+.navbar2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,12 +10,12 @@
   /* Subtle box shadow */
 }
 
-.logo-container {
+.logo-container2 {
   display: flex;
   align-items: center;
 }
 
-.logo {
+.logo2 {
   width: 50px;
   height: 50px;
   object-fit: cover;
@@ -24,30 +24,30 @@
   margin-right: 10px;
 }
 
-.logo-text {
+.logo-text2 {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.nav-list {
+.nav-list2 {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.nav-list li {
+.nav-list2 li {
   margin-right: 20px;
 }
 
-.nav-list a {
+.nav-list2 a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   transition: color 0.1s ease-in-out;
 }
 
-.nav-list a:hover {
+.nav-list2 a:hover {
   color: #888;
   /* Change the color on hover */
 }
