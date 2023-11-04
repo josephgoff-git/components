@@ -5,9 +5,9 @@ const Hero2 = () => {
   return (
     <div className="hero2-container">
       <div className="hero2-content">
-        <h1 className="hero2-title">Your Stunning Title</h1>
-        <p className="hero2-subtitle">A Subtitle That Grabs Attention</p>
-        <button className="hero2-button button">Explore Now</button>
+        <h1 className="hero2-title">Your Next Project</h1>
+        <p className="hero2-subtitle">Never Give Up Your Dreams!</p>
+        <button className="hero2-button button">Get Started</button>
       </div>
     </div>
   );
