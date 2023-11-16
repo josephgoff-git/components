@@ -1,15 +1,15 @@
-.image-gallery {
+.display1-image-gallery {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-.image-container {
+.display1-image-container {
   position: relative;
   width: 30%;
 }
 
-.image-container img {
+.display1-image-container img {
   width: 100%;
   height: 130px;
   border-radius: 8px;
@@ -18,7 +18,7 @@
   object-fit: cover;
 }
 
-.image-container:hover img {
+.display1-image-container:hover img {
   transform: scale(1.1);
   cursor: pointer;
   filter: brightness(0.5);
