@@ -14,8 +14,9 @@
   height: auto;
   border-radius: 8px;
   transition: transform 0.25s ease-in-out;
-    max-height: 120px;
-    object-fit: cover;
+  max-height: 130px;
+  min-height: 130px;
+  object-fit: cover;
 }
 
 .image-container:hover img {
