@@ -1,70 +1,72 @@
-.footer-container {
+.footer1-footer-container {
   display: flex;
   justify-content: space-around;
   background-color: black;
   color: #fff;
-  padding: 40px 0;
+  padding: 40px 30px;
+  padding-left: 60px;
+  gap: 20px;
 }
 
-.footer-section {
+.footer1-footer-section {
   flex: 1;
   max-width: 300px;
 }
 
-.footer-left {
+.footer1-footer-left {
   text-align: left;
 }
 
-.footer-center {
+.footer1-footer-center {
   text-align: left;
 }
 
-.footer-right {
+.footer1-footer-right {
   text-align: left;
 }
 
-.footer-title {
+.footer1-footer-title {
   font-size: 1.5em;
   margin-bottom: 15px;
 }
 
-.footer-description {
+.footer1-footer-description {
   font-size: 0.9em;
   line-height: 1.6;
 }
 
-.footer-links {
+.footer1-footer-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-links li {
+.footer1-footer-links li {
   margin-bottom: 8px;
 }
 
-.footer-links a {
+.footer1-footer-links a {
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer1-footer-links a:hover {
   color: #666;
 }
 
-.footer-address,
-.footer-email,
-.footer-phone {
+.footer1-footer-address,
+.footer1-footer-email,
+.footer1-footer-phone {
   margin-bottom: 10px;
 }
 
-.footer-social-icons {
+.footer1-footer-social-icons {
   display: flex;
-  justify-content: flex-end;
+  margin-left: -15px;
 }
 
-.social-icon {
+.footer1-social-icon {
   display: inline-block;
   font-size: 1.5em;
   margin-left: 15px;
@@ -72,30 +74,37 @@
   transition: color 0.3s ease;
 }
 
-.social-icon:hover {
-  color: #ffd700;
+.footer1-social-icon:hover {
+  color: #666;
 }
 
 @media (max-width: 700px) {
-  .footer-container {
+  .footer1-footer-container {
     flex-direction: column;
+    padding: 40px 30px;
     }
 
-  .footer-section {
+  .footer1-footer-section {
     flex: 1;
     max-width: none;
     padding: 20px 40px;
   }
 
-  .footer-right {
+  .footer1-footer-right {
     text-align: center;
   }
 
-.footer-left {
-  text-align: center;
-}
-
-  .footer-center {
+  .footer1-footer-left {
     text-align: center;
   }
+
+  .footer1-footer-center {
+    text-align: center;
+  }
+
+  .footer1-footer-social-icons {
+    justify-content: center;
+    margin-left: -15px;
+  }
+  
 }
