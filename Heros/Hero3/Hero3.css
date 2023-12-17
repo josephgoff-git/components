@@ -1,0 +1,95 @@
+.hero3-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero3-image {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.hero3-content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  text-align: right;
+  color: #fff;
+}
+
+.hero3-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif; /* Use your preferred font */
+   padding: 0 20px;
+}
+
+.hero3-description {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif; /* Use your preferred font */
+  padding: 0 20px;
+}
+
+.hero3-button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: rgb(255, 215, 104);
+  color: #1f1f1f;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero3-button:hover {
+  background-color: #ffc107;
+}
+
+@media (max-width: 800px) {
+  .hero3-description {
+    font-size: 1.4em;
+  }
+
+  .hero3-title {
+    font-size: 1.8em;
+  }
+
+  .hero3-content {
+    position: absolute;
+    top: auto;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero3-title,
+  .hero3-description {
+    text-align: center;
+  }
+
+  .hero3-button {
+    padding: 10px 25px;
+   font-size: 1.1em;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero3-description {
+    display: none
+  }
+
+  .hero3-title {
+    font-size: 1.6em;
+  }
+
+  .hero3-button {
+    padding: 8px 20px;
+   font-size: 1em;
+  }
+}
