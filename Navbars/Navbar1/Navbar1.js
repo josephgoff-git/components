@@ -12,33 +12,35 @@ const Navbar1 = () => {
   };
 
   return (
-    <div className="navbar1-container">
-      <div className="navbar1-left">
-        <div className="navbar1-logo">
-          <FaHome size={24}/>
+    <div className="navbar1">
+      <div className="navbar1-container">
+        <div className="navbar1-left">
+          <div className="navbar1-logo">
+            <FaHome size={24}/>
+          </div>
+          <div className="navbar1-title">Company</div>
         </div>
-        <div className="navbar1-title">Company</div>
-      </div>
-      <div className="navbar1-menu-button" onClick={handleToggleMenu}>
-        <FaBars size={24} />
-      </div>
-      <div className={`navbar1-links ${showMenu ? 'show-menu' : ''}`}>
-        <a href="#" className="navbar1-link">
-          <FaUser size={16} />
-          About
-        </a>
-        <a href="#" className="navbar1-link">
-          <GrTechnology size={16} />
-          Products
-        </a>
-        <a href="#" className="navbar1-link">
-          <MdSpaceDashboard size={16} />
-          Dashboard
-        </a>
-            <a href="#" className="navbar1-link">
-          <FaEnvelope size={16} />
-          Contact
-        </a>
+        <div className="navbar1-menu-button" onClick={handleToggleMenu}>
+          <FaBars size={24} />
+        </div>
+        <div className={`navbar1-links ${showMenu ? 'show-menu' : ''}`}>
+          <a href="#" className="navbar1-link">
+            <FaUser size={16} />
+            About
+          </a>
+          <a href="#" className="navbar1-link">
+            <GrTechnology size={16} />
+            Products
+          </a>
+          <a href="#" className="navbar1-link">
+            <MdSpaceDashboard size={16} />
+            Dashboard
+          </a>
+              <a href="#" className="navbar1-link">
+            <FaEnvelope size={16} />
+            Contact
+          </a>
+        </div>
       </div>
     </div>
   );
