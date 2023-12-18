@@ -1,10 +1,10 @@
-import './Navbar1.css';
+import './Navbar3.css';
 
-const Navbar1 = () => {
+const Navbar3 = () => {
   return (
-    <nav className="navbar1">
-      <div className="logo1">Logo</div>
-      <ul className="nav-list1">
+    <nav className="navbar3">
+      <div className="navbar3-logo">Logo</div>
+      <ul className="navbar3-list">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
@@ -15,4 +15,4 @@ const Navbar1 = () => {
   );
 }
 
-export default Navbar1;
+export default Navbar3;
