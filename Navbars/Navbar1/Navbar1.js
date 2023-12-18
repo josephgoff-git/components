@@ -24,22 +24,22 @@ const Navbar1 = () => {
           <FaBars size={24} />
         </div>
         <div className={`navbar1-links ${showMenu ? 'show-menu' : ''}`}>
-          <a href="#" className="navbar1-link">
+          <div className="navbar1-link">
             <FaUser size={16} />
             About
-          </a>
-          <a href="#" className="navbar1-link">
+          </div>
+          <div className="navbar1-link">
             <GrTechnology size={16} />
             Products
-          </a>
-          <a href="#" className="navbar1-link">
+          </div>
+          <div className="navbar1-link">
             <MdSpaceDashboard size={16} />
             Dashboard
-          </a>
-              <a href="#" className="navbar1-link">
+          </div>
+          <div className="navbar1-link">
             <FaEnvelope size={16} />
             Contact
-          </a>
+          </div>
         </div>
       </div>
     </div>
