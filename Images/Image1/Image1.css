@@ -1,4 +1,4 @@
-.display2-full-width-image {
+.image1-full-width-image {
   width: 100%;
   height: 250px;
   margin-top: 30px;
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.display2-full-width-image img {
+.image1-full-width-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-.display2-full-width-image img:hover {
+.image1-full-width-image img:hover {
   transform: scale(1.1);
   filter: brightness(0.6);
 }
